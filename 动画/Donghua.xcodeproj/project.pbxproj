@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C365196B1CE17A4700152F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C365196A1CE17A4700152F55 /* main.m */; };
+		C365196E1CE17A4700152F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C365196D1CE17A4700152F55 /* AppDelegate.m */; };
+		C36519711CE17A4700152F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36519701CE17A4700152F55 /* ViewController.m */; };
+		C36519741CE17A4700152F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36519721CE17A4700152F55 /* Main.storyboard */; };
+		C36519761CE17A4700152F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36519751CE17A4700152F55 /* Assets.xcassets */; };
+		C36519791CE17A4700152F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36519771CE17A4700152F55 /* LaunchScreen.storyboard */; };
+		C36519841CE17A4700152F55 /* DonghuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36519831CE17A4700152F55 /* DonghuaTests.m */; };
+		C365198F1CE17A4700152F55 /* DonghuaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C365198E1CE17A4700152F55 /* DonghuaUITests.m */; };
+		C365199E1CE17A9D00152F55 /* ZHTAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C365199D1CE17A9D00152F55 /* ZHTAnimationLayer.m */; };
+		C36519A01CE17BA900152F55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C365199F1CE17BA900152F55 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36519801CE17A4700152F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C365195E1CE17A4600152F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36519651CE17A4600152F55;
+			remoteInfo = Donghua;
+		};
+		C365198B1CE17A4700152F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C365195E1CE17A4600152F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36519651CE17A4600152F55;
+			remoteInfo = Donghua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36519661CE17A4600152F55 /* Donghua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donghua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C365196A1CE17A4700152F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C365196C1CE17A4700152F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C365196D1CE17A4700152F55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C365196F1CE17A4700152F55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C36519701CE17A4700152F55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C36519731CE17A4700152F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36519751CE17A4700152F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36519781CE17A4700152F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C365197A1CE17A4700152F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C365197F1CE17A4700152F55 /* DonghuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonghuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36519831CE17A4700152F55 /* DonghuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonghuaTests.m; sourceTree = "<group>"; };
+		C36519851CE17A4700152F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C365198A1CE17A4700152F55 /* DonghuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonghuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C365198E1CE17A4700152F55 /* DonghuaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonghuaUITests.m; sourceTree = "<group>"; };
+		C36519901CE17A4700152F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C365199C1CE17A9D00152F55 /* ZHTAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTAnimationLayer.h; sourceTree = "<group>"; };
+		C365199D1CE17A9D00152F55 /* ZHTAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTAnimationLayer.m; sourceTree = "<group>"; };
+		C365199F1CE17BA900152F55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36519631CE17A4600152F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36519A01CE17BA900152F55 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C365197C1CE17A4700152F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36519871CE17A4700152F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C365195D1CE17A4600152F55 = {
+			isa = PBXGroup;
+			children = (
+				C365199F1CE17BA900152F55 /* QuartzCore.framework */,
+				C36519681CE17A4700152F55 /* Donghua */,
+				C36519821CE17A4700152F55 /* DonghuaTests */,
+				C365198D1CE17A4700152F55 /* DonghuaUITests */,
+				C36519671CE17A4600152F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36519671CE17A4600152F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36519661CE17A4600152F55 /* Donghua.app */,
+				C365197F1CE17A4700152F55 /* DonghuaTests.xctest */,
+				C365198A1CE17A4700152F55 /* DonghuaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36519681CE17A4700152F55 /* Donghua */ = {
+			isa = PBXGroup;
+			children = (
+				C365196C1CE17A4700152F55 /* AppDelegate.h */,
+				C365196D1CE17A4700152F55 /* AppDelegate.m */,
+				C365196F1CE17A4700152F55 /* ViewController.h */,
+				C36519701CE17A4700152F55 /* ViewController.m */,
+				C36519721CE17A4700152F55 /* Main.storyboard */,
+				C36519751CE17A4700152F55 /* Assets.xcassets */,
+				C36519771CE17A4700152F55 /* LaunchScreen.storyboard */,
+				C365197A1CE17A4700152F55 /* Info.plist */,
+				C36519691CE17A4700152F55 /* Supporting Files */,
+				C365199C1CE17A9D00152F55 /* ZHTAnimationLayer.h */,
+				C365199D1CE17A9D00152F55 /* ZHTAnimationLayer.m */,
+			);
+			path = Donghua;
+			sourceTree = "<group>";
+		};
+		C36519691CE17A4700152F55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C365196A1CE17A4700152F55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36519821CE17A4700152F55 /* DonghuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36519831CE17A4700152F55 /* DonghuaTests.m */,
+				C36519851CE17A4700152F55 /* Info.plist */,
+			);
+			path = DonghuaTests;
+			sourceTree = "<group>";
+		};
+		C365198D1CE17A4700152F55 /* DonghuaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C365198E1CE17A4700152F55 /* DonghuaUITests.m */,
+				C36519901CE17A4700152F55 /* Info.plist */,
+			);
+			path = DonghuaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36519651CE17A4600152F55 /* Donghua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36519931CE17A4700152F55 /* Build configuration list for PBXNativeTarget "Donghua" */;
+			buildPhases = (
+				C36519621CE17A4600152F55 /* Sources */,
+				C36519631CE17A4600152F55 /* Frameworks */,
+				C36519641CE17A4600152F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Donghua;
+			productName = Donghua;
+			productReference = C36519661CE17A4600152F55 /* Donghua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C365197E1CE17A4700152F55 /* DonghuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36519961CE17A4700152F55 /* Build configuration list for PBXNativeTarget "DonghuaTests" */;
+			buildPhases = (
+				C365197B1CE17A4700152F55 /* Sources */,
+				C365197C1CE17A4700152F55 /* Frameworks */,
+				C365197D1CE17A4700152F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36519811CE17A4700152F55 /* PBXTargetDependency */,
+			);
+			name = DonghuaTests;
+			productName = DonghuaTests;
+			productReference = C365197F1CE17A4700152F55 /* DonghuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C36519891CE17A4700152F55 /* DonghuaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36519991CE17A4700152F55 /* Build configuration list for PBXNativeTarget "DonghuaUITests" */;
+			buildPhases = (
+				C36519861CE17A4700152F55 /* Sources */,
+				C36519871CE17A4700152F55 /* Frameworks */,
+				C36519881CE17A4700152F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C365198C1CE17A4700152F55 /* PBXTargetDependency */,
+			);
+			name = DonghuaUITests;
+			productName = DonghuaUITests;
+			productReference = C365198A1CE17A4700152F55 /* DonghuaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C365195E1CE17A4600152F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hebccc;
+				TargetAttributes = {
+					C36519651CE17A4600152F55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MBD4668B87;
+					};
+					C365197E1CE17A4700152F55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C36519651CE17A4600152F55;
+					};
+					C36519891CE17A4700152F55 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C36519651CE17A4600152F55;
+					};
+				};
+			};
+			buildConfigurationList = C36519611CE17A4600152F55 /* Build configuration list for PBXProject "Donghua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C365195D1CE17A4600152F55;
+			productRefGroup = C36519671CE17A4600152F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36519651CE17A4600152F55 /* Donghua */,
+				C365197E1CE17A4700152F55 /* DonghuaTests */,
+				C36519891CE17A4700152F55 /* DonghuaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36519641CE17A4600152F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36519791CE17A4700152F55 /* LaunchScreen.storyboard in Resources */,
+				C36519761CE17A4700152F55 /* Assets.xcassets in Resources */,
+				C36519741CE17A4700152F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C365197D1CE17A4700152F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36519881CE17A4700152F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36519621CE17A4600152F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36519711CE17A4700152F55 /* ViewController.m in Sources */,
+				C365199E1CE17A9D00152F55 /* ZHTAnimationLayer.m in Sources */,
+				C365196E1CE17A4700152F55 /* AppDelegate.m in Sources */,
+				C365196B1CE17A4700152F55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C365197B1CE17A4700152F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36519841CE17A4700152F55 /* DonghuaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36519861CE17A4700152F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C365198F1CE17A4700152F55 /* DonghuaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36519811CE17A4700152F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36519651CE17A4600152F55 /* Donghua */;
+			targetProxy = C36519801CE17A4700152F55 /* PBXContainerItemProxy */;
+		};
+		C365198C1CE17A4700152F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36519651CE17A4600152F55 /* Donghua */;
+			targetProxy = C365198B1CE17A4700152F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36519721CE17A4700152F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36519731CE17A4700152F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36519771CE17A4700152F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36519781CE17A4700152F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36519911CE17A4700152F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C36519921CE17A4700152F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36519941CE17A4700152F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = Donghua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.Donghua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36519951CE17A4700152F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBD4668B87;
+				INFOPLIST_FILE = Donghua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.Donghua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C36519971CE17A4700152F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonghuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.DonghuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donghua.app/Donghua";
+			};
+			name = Debug;
+		};
+		C36519981CE17A4700152F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DonghuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.DonghuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donghua.app/Donghua";
+			};
+			name = Release;
+		};
+		C365199A1CE17A4700152F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonghuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.DonghuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Donghua;
+			};
+			name = Debug;
+		};
+		C365199B1CE17A4700152F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DonghuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawang.DonghuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Donghua;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36519611CE17A4600152F55 /* Build configuration list for PBXProject "Donghua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36519911CE17A4700152F55 /* Debug */,
+				C36519921CE17A4700152F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36519931CE17A4700152F55 /* Build configuration list for PBXNativeTarget "Donghua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36519941CE17A4700152F55 /* Debug */,
+				C36519951CE17A4700152F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36519961CE17A4700152F55 /* Build configuration list for PBXNativeTarget "DonghuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36519971CE17A4700152F55 /* Debug */,
+				C36519981CE17A4700152F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36519991CE17A4700152F55 /* Build configuration list for PBXNativeTarget "DonghuaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C365199A1CE17A4700152F55 /* Debug */,
+				C365199B1CE17A4700152F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C365195E1CE17A4600152F55 /* Project object */;
+}

@@ -13,3 +13,6 @@ NSMutableArray *mutarr = [NSMutableArray arrayWithObjects:[ZHTAnimationLayer rep
         [view.layer addSublayer:mutarr[i]];
         [self.view addSubview:view];
     }
+
+
+![image](https://github.com/ZHT521/ZHTAnimationLayer/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE.gif?raw=true)

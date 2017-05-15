@@ -1,6 +1,7 @@
 # ZHTAnimationLayer
 简单的动画，等待指示动画效果。
 调用添加方法，ZHTAnimationLayer里都为类方法。
+
 NSMutableArray *mutarr = [NSMutableArray arrayWithObjects:[ZHTAnimationLayer replicatorLayer_Circle],[ZHTAnimationLayer replicatorLayer_Wave],[ZHTAnimationLayer replicatorLayer_Triangle],[ZHTAnimationLayer replicatorLayer_Grid], nil];
     CGFloat Width = self.view.frame.size.width/2;
     
